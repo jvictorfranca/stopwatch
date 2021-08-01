@@ -5,7 +5,7 @@ class StopWatch extends React.Component {
   constructor(props){
     super(props)
       this.state = {
-        units: 880,
+        units: 864000,
       }  
       this.startCount = this.startCount.bind(this)
       this.stopCount = this.stopCount.bind(this)
@@ -22,7 +22,6 @@ class StopWatch extends React.Component {
       this.setState((prevState)=>({
         units: prevState.units - 1
       }))
-      console.log(this.state.units)
     }, 100)}
   }
 stopCount () {
