@@ -1,0 +1,46 @@
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-image: url(https://media.istockphoto.com/photos/star-sky-at-night-space-background-picture-id841403680?k=6&m=841403680&s=170667a&w=0&h=KhgxHH9RQ_5ngrfwpbzJn3zlG_sIXHNHq4P_GY25tpM=);
+  height: fit-content;
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  border: blue double ;
+  border-radius: 20px;
+  }
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%px;
+  }
+
+.button-container button{
+  background-color: rgba(0, 0, 0, 0.521);
+  
+  color: white;
+  border: blue 1px dashed;
+  height: 100%;
+ 
+  width: 100%;
+
+
+}
+.button-container button:hover{
+  background-color: rgb(152, 152, 255);
+  background-image: none;
+}
+.side-buttons {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}

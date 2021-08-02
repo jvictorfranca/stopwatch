@@ -20,13 +20,16 @@ class UnitsInput extends React.Component {
     let value = this.state.inputValue
     value = value*600
     this.props.updateValues(value)
+    this.setState({
+      inputValue:''
+    })
   }
   render(){
    const {inputValue} = this.state
     return (
       <section>
       <input type="number" name='inputValue' value={inputValue} onChange={this.handleData} />
-      <button onClick={this.sendUpdatedValues}>Send</button>
+      <button onClick={this.sendUpdatedValues}>Set minutes</button>
       </section>
       
     )

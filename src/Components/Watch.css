@@ -1,12 +1,18 @@
 .stopWatch { 
-background-color: blueviolet;
+background-color: rgba(0, 0, 0, 0.555);
 display: flex;
-width: 50vh;
+width: 100%;
 flex-direction: row-reverse;
 margin: auto;
-height: 15vh;
+height: 100%;
+padding: 20px;
 justify-content: center;
 align-items: center;
+border: solid blue 1px;
+border-radius: 0;
+color: rgb(152, 152, 255);
+background-image: none;
+
 }
 
 .container{
@@ -23,3 +29,4 @@ flex-direction: row-reverse;
   font-size: 3vh;
   align-self: flex-end;
 }
+
