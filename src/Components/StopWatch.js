@@ -42,7 +42,7 @@ class StopWatch extends React.Component {
       this.setState((prevState)=>({
         units: prevState.units - 1
       }))
-    }, 1)
+    }, 100)
   }
   }
 stopCount () {
