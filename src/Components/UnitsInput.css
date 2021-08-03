@@ -1,0 +1,26 @@
+section{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+input {
+  background-color: rgba(132, 110, 179, 0.548);
+  border: none;
+  height: 4vh;
+  margin-right: 5px;
+  color: white;
+  font-size: 4vh;
+  width: 30%;
+  align-items: flex-end;
+}
+
+button{
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  border: dashed blue 1px;
+  height: 5vh;
+}
+
+button:hover{
+  background-color: rgb(152, 152, 255);}

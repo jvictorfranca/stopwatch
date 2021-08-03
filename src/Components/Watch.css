@@ -5,10 +5,10 @@ width: 100%;
 flex-direction: row-reverse;
 margin: auto;
 height: 100%;
-padding: 20px;
+padding-top: 20px;
 justify-content: center;
 align-items: center;
-border: solid blue 1px;
+border: solid rgb(0, 0, 150) 1px;
 border-radius: 0;
 color: rgb(152, 152, 255);
 background-image: none;
@@ -22,7 +22,6 @@ flex-direction: row-reverse;
 
 .number{
   font-size: 5vh;
-
 }
 
 .little{
@@ -30,3 +29,7 @@ flex-direction: row-reverse;
   align-self: flex-end;
 }
 
+.sheep{
+  padding-top: 10px;
+ width: 100%;
+}

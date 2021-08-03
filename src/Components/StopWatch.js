@@ -2,8 +2,10 @@ import React from 'react'
 import Watch from './Watch'
 import UnitsInput from './UnitsInput'
 import video from './Video/ScreamingGoat.mp4'
+
 import ReactPlayer from "react-player";
 import './StopWatch.css'
+import CountingSheep from './CountSheep';
 
 class StopWatch extends React.Component {
   constructor(props){
@@ -25,6 +27,7 @@ class StopWatch extends React.Component {
       this.showStartVideo = this.showStartVideo.bind(this)
 
       this.counting = false
+      this.showSheep = false
 
   }
   
@@ -38,6 +41,7 @@ class StopWatch extends React.Component {
   startCount () {
     if (this.state.units>0 && !this.countConstant){
       this.counting = true
+      this.showSheep = true
       this.countConstant = setInterval(()=>{
       this.setState((prevState)=>({
         units: prevState.units - 1
@@ -49,6 +53,7 @@ stopCount () {
   clearInterval(this.countConstant)
   this.countConstant = undefined
   this.counting = false
+  this.showSheep = false
 }
 resetUnits () {
   this.setState(()=>({
@@ -113,7 +118,7 @@ async setStartUnits (number) {
       </div>
      <Watch  units= {units}></Watch>
     </div>
-    
+    {this.showSheep && <CountingSheep />}
    </main>
    }
    {this.state.videoShow && <ReactPlayer
@@ -122,7 +127,7 @@ async setStartUnits (number) {
     height="100%"
     playing={this.state.playing}
     onEnded={this.videoEnd}
-    volume = '0.05'
+    volume = '0.2'
      />}
    
    </div>

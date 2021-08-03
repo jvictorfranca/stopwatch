@@ -1,4 +1,5 @@
 import React from 'react';
+import './UnitsInput.css'
 
 class UnitsInput extends React.Component {
   constructor(props){
