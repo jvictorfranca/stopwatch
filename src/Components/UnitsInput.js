@@ -29,7 +29,7 @@ class UnitsInput extends React.Component {
    const {inputValue} = this.state
     return (
       <section>
-      <input type="number" name='inputValue' value={inputValue} onChange={this.handleData} />
+      <input type="number" name='inputValue' min='0' value={inputValue} onChange={this.handleData} />
       <button onClick={this.sendUpdatedValues}>Set minutes</button>
       </section>
       
