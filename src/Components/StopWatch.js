@@ -54,6 +54,7 @@ stopCount () {
   this.countConstant = undefined
   this.counting = false
   this.showSheep = false
+  this.forceUpdate()
 }
 resetUnits () {
   this.setState(()=>({
