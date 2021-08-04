@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stopwatch/static/css/main.078f1006.chunk.css",
+    "main.js": "/stopwatch/static/js/main.13f7b82e.chunk.js",
+    "main.js.map": "/stopwatch/static/js/main.13f7b82e.chunk.js.map",
+    "runtime-main.js": "/stopwatch/static/js/runtime-main.157920fd.js",
+    "runtime-main.js.map": "/stopwatch/static/js/runtime-main.157920fd.js.map",
+    "static/js/2.e1650134.chunk.js": "/stopwatch/static/js/2.e1650134.chunk.js",
+    "static/js/2.e1650134.chunk.js.map": "/stopwatch/static/js/2.e1650134.chunk.js.map",
+    "static/js/3.a0b5ccc0.chunk.js": "/stopwatch/static/js/3.a0b5ccc0.chunk.js",
+    "static/js/3.a0b5ccc0.chunk.js.map": "/stopwatch/static/js/3.a0b5ccc0.chunk.js.map",
+    "index.html": "/stopwatch/index.html",
+    "static/css/main.078f1006.chunk.css.map": "/stopwatch/static/css/main.078f1006.chunk.css.map",
+    "static/js/2.e1650134.chunk.js.LICENSE.txt": "/stopwatch/static/js/2.e1650134.chunk.js.LICENSE.txt",
+    "static/media/ScreamingGoat.f33e6429.mp4": "/stopwatch/static/media/ScreamingGoat.f33e6429.mp4",
+    "static/media/giphy.59c1076e.gif": "/stopwatch/static/media/giphy.59c1076e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.157920fd.js",
+    "static/js/2.e1650134.chunk.js",
+    "static/css/main.078f1006.chunk.css",
+    "static/js/main.13f7b82e.chunk.js"
+  ]
+}
